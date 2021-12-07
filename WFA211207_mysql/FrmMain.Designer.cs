@@ -31,25 +31,25 @@
             this.rtb = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // rtb
             // 
-            this.rtb.Location = new System.Drawing.Point(107, 96);
-            this.rtb.Name = "richTextBox1";
-            this.rtb.Size = new System.Drawing.Size(237, 225);
+            this.rtb.Location = new System.Drawing.Point(12, 12);
+            this.rtb.Name = "rtb";
+            this.rtb.Size = new System.Drawing.Size(192, 217);
             this.rtb.TabIndex = 0;
             this.rtb.Text = "";
             // 
-            // Form1
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(564, 455);
+            this.ClientSize = new System.Drawing.Size(216, 241);
             this.Controls.Add(this.rtb);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "FrmMain";
+            this.Text = "MySQL.Data";
+            this.Load += new System.EventHandler(this.Form_Load);
             this.ResumeLayout(false);
 
         }
